@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>Bolinder-Tooele Valley to Ogden-Hinckley</Title>
+        <FPType>IFR</FPType>
+        <RouteType>LowAlt</RouteType>
+        <CruisingAlt>7000.000</CruisingAlt>
+        <DepartureID>KTVY</DepartureID>
+        <DepartureLLA>N40° 36' 45.12",W112° 21' 2.89",+004297.50</DepartureLLA>
+        <DestinationID>KOGD</DestinationID>
+        <DestinationLLA>N41° 11' 41.49",W112° 0' 45.73",+004445.50</DestinationLLA>
+        <Descr>Bolinder-Tooele Valley to Ogden-Hinckley</Descr>
+        <DepartureName>Bolinder-Tooele Valley</DepartureName>
+        <DestinationName>Ogden-Hinckley</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="KTVY">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N40° 36' 45.12",W112° 21' 2.89",+004297.50</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KTVY</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="Custom">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 23' 7.00",W112° 21' 24.33",+007000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="Custom">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 23' 1.28",W112° 46' 46.51",+006000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMECRUIS">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 27' 16.97",W112° 39' 34.14",+007000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMEDSCNT">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 39' 27.87",W112° 18' 48.76",+007000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="TCH">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N40° 51' 0.93",W111° 58' 54.86",+007000.00</WorldPosition>
+            <ATCAirway>V101</ATCAirway>
+            <ICAO>
+                <ICAORegion>K2</ICAORegion>
+                <ICAOIdent>TCH</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KAYZE">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N41° 0' 45.30",W112° 1' 56.20",+006000.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>K2</ICAORegion>
+                <ICAOIdent>KAYZE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KOGD">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N41° 11' 41.49",W112° 0' 45.73",+004450.00</WorldPosition>
+            <ApproachTypeFP>ILS</ApproachTypeFP>
+            <RunwayNumberFP>3</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>KOGD</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
